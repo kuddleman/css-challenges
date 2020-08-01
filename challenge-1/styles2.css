@@ -1,0 +1,25 @@
+body {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.title-text {
+  font-size: 36px;
+  color: #fff;
+  background: #2e354f;
+  text-transform: uppercase;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 50px auto;
+  width: 650px;
+  
+}
+
+.section-title {
+  text-transform: uppercase;
+}
