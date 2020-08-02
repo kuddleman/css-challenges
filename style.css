@@ -1,38 +1,73 @@
 /* DON'T TOUCH THIS! */
 body {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+html,body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 36px;
+	width: 100%;
+	text-transform: uppercase;
+	background: #2e354f;
+	margin: 0;
+	color: white;
+}
+
+
+.section-title {
+	text-transform: uppercase;
+}
+
+.underlined {
+	color: #ef5839;
+}
+
+.btn {
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+	background: #ef5839;
+	display: inline-block;
+}
+
+.btn:hover {
+	color: #2e354f;
+	background: #d4b44c;
 }
 /* DON'T TOUCH THIS! */
 
 /* ==========================
- Write your solution here!
-  ========================== */
+	Write your solution here!
+   ========================== */
 
+   .container {
+     width: 620px;
+     /* border: 2px solid black; */
+     margin: 0 auto;
+     margin-bottom: 120px;
+   }
 
-  /* - Main button background: #ef5839
- - Hovered button background: #d4b44c
- - Hovered button text color: #2e354f  */
+   .title-section {
+     margin-bottom: 120px;
+   }
 
- .btn {
-   display: inline-block;
-   text-decoration: none;
-   background:  #ef5839;
-   color: #fff;
-   font-family: 'Lato', sans-serif;
-   font-weight: 900;
-   padding: 20px 30px;
- } 
+   .title-text {
+     padding: 10px 0;
+   }
 
- .btn:hover {
-   color: #2e354f; 
-   background: #d4b44c; 
-   font-size: 32px;
-   
-   
-   
- }
+   .section-title {
+     padding-bottom: 10px;
+     border-bottom: 2px solid #d3d3d3;
+   }
+
+   .btn {
+     display: inline-block;
+     padding: 10px 20px;
+
+   }
