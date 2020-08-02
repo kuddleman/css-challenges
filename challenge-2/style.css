@@ -52,4 +52,21 @@ body {
  - Purple square background: #af63db
  - Purple square text color: #fffbc2 */
 
+ .square-1 {
+   background: #c74e48;
+   color: #beffb0;
+ }
+ .square-2 {
+   background: #6cb344;
+   color: #ffd9d1;
+ }
+ .square-3 {
+   background: #b8eaff;
+   color: #472a00;
+ }
+ .square-4 {
+   background: #af63db;
+   color: #fffbc2;
+ }
+
  
