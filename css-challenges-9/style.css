@@ -1,8 +1,9 @@
 /* DON'T TOUCH THIS! */
 body {
-	font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
+
 }
-.post {
+.post, .post-html {
 	width: 700px;
 	display: grid;
 	grid-template-columns: 1fr 4fr;
@@ -14,7 +15,8 @@ body {
 	background: #e8f7ff;
 	border: 20px solid #969696;
 	padding: 20px;
-	margin: 0;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 img {
@@ -22,7 +24,8 @@ img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	object-position: top;
+  object-position: top;
+  
 }
 
 .title {
@@ -44,3 +47,15 @@ img {
 
 /* New post background color: #ffe8c4
  - New post text color: #ef5839 */
+
+ .post-html {
+   background: #ffe8c4;
+ }
+
+ .post-html h1 {
+  color: #ef5839;
+ }
+
+ .post-html p {
+   color: black;
+ }
