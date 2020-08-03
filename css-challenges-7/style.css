@@ -1,0 +1,29 @@
+/* - Card background: #a6e87d
+ - Font used: Montserrat
+ - Bold font weight: 800 */
+
+ body {
+   font-family: 'Montserrat', sans-serif;
+   background: #a6e87d;
+   /* text-align: center; */
+ }
+
+ .card {
+   text-align: center;
+ }
+
+ .info-label, .end {
+   font-weight: 800;
+ }
+
+ img {
+   width: 150px;
+ }
+
+ .info, .end {
+   line-height: 50px;
+ }
+
+ .end {
+   margin-bottom: 60px;
+ }
