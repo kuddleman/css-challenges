@@ -20,3 +20,23 @@ body {
    ========================== */
 
 /* Hover text color / Normal text background: #2e354f */
+body {
+  background: white;
+}
+.text {
+  font-size: 30px;
+  border: 8px solid  #616161
+}
+
+.text:hover, text:focus {
+  color: #2e354f;
+  background: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  /* text-align: center; */
+  padding: 50px 70px;
+  padding-right: 100px;
+  
+}
+
